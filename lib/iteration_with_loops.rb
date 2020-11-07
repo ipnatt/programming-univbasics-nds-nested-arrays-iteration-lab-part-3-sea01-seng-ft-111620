@@ -4,5 +4,5 @@ def join_nested_strings(src)
   words = []
   join_nested_strings.each do |items| 
     items.each do |item|
-      if item.class == string 
+      if item.class == String
 end
