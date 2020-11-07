@@ -8,3 +8,4 @@ def join_nested_strings(src)
       
       if src[row_index][element_index]
         new_string << src[row_index][element_index]
+        
