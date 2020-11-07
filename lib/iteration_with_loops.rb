@@ -10,4 +10,5 @@ def join_nested_strings(src)
         new_string << src[row_index][element_index]
         element_index
       end
-      
+      element_index += 1
+    end
