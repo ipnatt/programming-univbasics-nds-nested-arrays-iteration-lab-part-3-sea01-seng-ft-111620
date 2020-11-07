@@ -6,5 +6,4 @@ def join_nested_strings(src)
         words << item
       end
     end
-  end
 end
