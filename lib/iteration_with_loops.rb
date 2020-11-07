@@ -8,7 +8,6 @@ def join_nested_strings(src)
       
       if src[row_index][element_index].is_a? String
         new_string << src[row_index][element_index]
-        return new_string.join(" ")
         element_index
       end
       element_index += 1
