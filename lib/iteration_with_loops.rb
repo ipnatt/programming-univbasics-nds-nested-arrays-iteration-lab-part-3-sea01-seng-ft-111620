@@ -8,4 +8,4 @@ def join_nested_strings(src)
     end
 end
 
-words.join
+words.join()
