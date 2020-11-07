@@ -6,4 +6,7 @@ def join_nested_strings(src)
     items.each do |item|
       if item.class == String
         words << item
+      end
+    end
+  end
 end
